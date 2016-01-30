@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+.active-buttons {
+  cursor: pointer;
+}
+
+.board {
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  border: 10px solid #393A3B;
+  border-radius: 50%;
+  background-color: #393A3B;
+  -webkit-box-shadow: 4px 4px 36px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 36px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 36px 6px rgba(0, 0, 0, 0.75);
+}
+
+body {
+  background-color: #A4DBED;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-on {
+  filter: brightness(10%);
+}
+
+.count {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  height: 20%;
+  width: 20%;
+}
+
+.count-display {
+  margin: auto;
+  position: relative;
+  top: 10%;
+  height: 70%;
+  width: 100%;
+  border-radius: 20%;
+  background-color: #393A3B;
+  font-size: 1.5em;
+  color: red;
+  text-align: center;
+  line-height: 140%;
+}
+
+.count-text {
+  font-size: .8em;
+  text-align: center;
+}
+
+.game-name {
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  line-height: 50px;
+  font-size: 4.5em;
+  font-weight: 900;
+  font-family: 'Squada One', cursive;
+}
+
+.on-off {
+  display: table;
+  position: relative;
+  bottom: 38%;
+  left: 38%;
+  height: 10%;
+  width: 30%;
+}
+
+.on-off h2 {
+  display: inline-block;
+  vertical-align: 20%;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.on-text {
+  display: inline-block;
+}
+
+.quadrant-on {
+  cursor: pointer;
+}
+
+.settings {
+  position: relative;
+  top: 25%;
+  left: 0%;
+  margin: auto;
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+  border: 15px solid #393A3B;
+  background-color: white;
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+}
+
+.start {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  height: 20%;
+  width: 20%;
+}
+
+.start-button {
+  margin: auto;
+  position: relative;
+  top: 10%;
+  height: 53%;
+  width: 53%;
+  border-radius: 50%;
+  background-color: red;
+  border: 4px solid #393A3B;
+  cursor: pointer;
+}
+
+.start-text {
+  font-size: .8em;
+  text-align: center;
+}
+
+.strict {
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  height: 20%;
+  width: 20%;
+}
+
+.strict-button {
+  margin: auto;
+  position: relative;
+  top: 10%;
+  height: 53%;
+  width: 53%;
+  border-radius: 50%;
+  background-color: red;
+  border: 4px solid #393A3B;
+  cursor: pointer;
+}
+
+.strict-text {
+  font-size: .8em;
+  text-align: center;
+}
+
+.switch {
+  display: inline-block;
+  height: 40%;
+  width: 35%;
+  background-color: #393A3B;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.switch-button {
+  background-color: #48B7DB;
+  float: left;
+  height: 100%;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.trademark {
+  font-size: .3em;
+  position: absolute;
+  bottom: 30%;
+}
+
+
+/* button on classes */
+
+.button-on {
+  background-color: green;
+}
+
+.switch-on {
+  float: right;
+}
+
+
+/* quadrants */
+
+#bottom-left {
+  float: left;
+  border: 10px solid #393A3B;
+  height: 46%;
+  width: 46%;
+  background-color: #B6BA3A;
+  border-bottom-left-radius: 100%;
+}
+
+#bottom-left.highlight {
+  background-color: #E1E81C;
+}
+
+#bottom-right {
+  float: right;
+  border: 10px solid #393A3B;
+  height: 46%;
+  width: 46%;
+  background-color: #25307A;
+  border-bottom-right-radius: 100%;
+}
+
+#bottom-right.highlight {
+  background-color: #0717F0;
+}
+
+#top-left {
+  float: left;
+  border: 10px solid #393A3B;
+  height: 46%;
+  width: 46%;
+  background-color: #49BA3A;
+  border-top-left-radius: 100%;
+}
+
+#top-left.highlight {
+  background-color: #1CE823;
+}
+
+#top-right {
+  float: right;
+  border: 10px solid #393A3B;
+  height: 46%;
+  width: 46%;
+  background-color: #BA3A3A;
+  border-top-right-radius: 100%;
+}
+
+#top-right.highlight {
+  background-color: #E81C1C;
+}
